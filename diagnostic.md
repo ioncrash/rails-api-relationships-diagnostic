@@ -67,13 +67,13 @@ end
 the above `Movies` and `Profiles`.
 
 ```sh
-  # < Your Response Here >
+  rails g scaffold favorite movie:references profile:references
 ```
 
 1.  What is `Dependent: Destroy` and where/why would we use it?
 
 ```sh
-  # < Your Response Here >
+  Dependent destroy ensures that if you delete a member of a table, all of its dependents on the join table are deleted too. Ensures that you don't have orphans in your join table
 ```
 
 1.  Think of **ANY** example where you would have a one-to-many relationship as well
