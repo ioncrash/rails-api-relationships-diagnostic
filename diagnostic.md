@@ -81,5 +81,5 @@ as a many-to-many relationship in an application. You only need to list the
 description about the resources and how they relate to one another.
 
 ```sh
-  # < Your Response Here >
+  Maybe you have a salesperson assigned to many clients (one-to-many). You also have many sales packages assigned to many clients. So a client can have many sales packages, which can be sold to many different clients, but each client only has one salesperson
 ```
